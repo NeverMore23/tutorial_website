@@ -23,7 +23,7 @@ import website.urls as website_urls
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^ueditor', include(djud_urls)),
-    url(r'^article', include(website_urls))
+    url(r'^article/', include('website.urls'))
 ]
 
 if settings.DEBUG:
