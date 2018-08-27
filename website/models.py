@@ -6,8 +6,8 @@ from DjangoUeditor.models import UEditorField
 
 
 # Create your models here.
-# null = True 表示空值将会被存储为NULL
-# blank = True 表示在页面当中对应的表单可以为空，可以不填任何内容
+# null = True 空值将会被存储为NULL
+# blank = True 页面当中对应的表单可以为空，可以不填任何内容
 # supername: website
 # pwd: tutorialwebsite
 
